@@ -1,13 +1,13 @@
 # 📝 WTG Note – Android Notes App
 
-**Basic Note** is a simple yet powerful **note-taking Android application** built with the latest Android SDK.  
+**WTG Note** is a simple yet powerful **note-taking Android application** built with the latest Android SDK.  
 Simple yet powerful note-taking Android application. It’s written entirely in **Kotlin**, following **modern Android development practices** to ensure scalability, performance, and a smooth user experience.    
 
 ---
 
 ## ✨ Core Features  
 
-- ⚡ **Modern Development**: Built in **Android Studio Dolphin** using the latest SDK.  
+- ⚡ **Modern Development**: Built in **Android Studio** using the latest SDK.  
 - 🗂 **Local Storage**: Offline-first with **Room Database, Flow, LiveData, and ViewModel**.  
 - 🧩 **Dependency Injection**: Powered by **Hilt** for scalability and clean architecture.  
 - 🗑 **Swipe-to-Delete** functionality for quick note management.  
@@ -20,11 +20,10 @@ Simple yet powerful note-taking Android application. It’s written entirely in 
 
 ## ✨ TODO  
 
-- 📊 **AdMob Interstitial Ads** integrated + **Firebase Analytics**  
+- 📊 **AdMob Interstitial Ads**
 - 🌎 Multi-language:  **English (US)**  
 - **Firebase Analytics**  
 - **Google AdMob**  
-
 
 ---
 
@@ -38,9 +37,6 @@ Simple yet powerful note-taking Android application. It’s written entirely in 
   - Navigation  
 - **Coroutines + Flow**  
 - **Hilt (Dependency Injection)**  
-- **Firebase Analytics**  
-- **Google AdMob**  
-
 
 ---
 
@@ -48,7 +44,7 @@ Simple yet powerful note-taking Android application. It’s written entirely in 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-repo/basic-note.git
+   git clone https://github.com/weaktogeek/android-kotlin-notes-app.git
 2. Open in Android Studio.
 3. Build & Run on an emulator or real device.
 4. Start creating and organizing your notes!
