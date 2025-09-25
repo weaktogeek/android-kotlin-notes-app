@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariantLight</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryLight</item>
+
+        <item name="colorSecondary">@color/colorSecondaryLight</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariantLight</item>
+        <item name="colorOnSecondary">@color/colorOnSecondaryLight</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+
+        <!-- Navigation bar color. -->
+        <!-- <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>  -->
+
+        <!---Toolbar and AppBar-->
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+        <item name="popupMenuStyle">@style/Widget.App.PopupMenu</item>
+        <item name="appBarLayoutStyle">@style/Widget.App.AppBarLayout</item>
+        <item name="actionMenuTextColor">?attr/colorOnSurface</item>
+
+        <!-- Global AlertDialog Theme. -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+
+    <style name="Theme.App" parent="Base.Theme.App" />
+
+    <!---Start Toolbar and AppBar-->
+    <style name="Widget.App.AppBarLayout" parent="Widget.Material3.ActionBar.Solid">
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Toolbar</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item> <!-- Text Color-->
+    </style>
+
+    <style name="ThemeOverlay.App.Toolbar" parent="">
+        <item name="colorControlNormal">?attr/colorOnPrimary</item> <!-- Icon Color-->
+    </style>
+
+    <style name="Widget.App.PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="popupMenuBackground">?attr/colorPrimary</item>
+
+    </style>
+    <!---End Toolbar & AppBar-->
+    <!-- MaterialAlertDialog Theme -->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/MaterialAlertDialogTheme.App</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="MaterialAlertDialogTheme.App" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+    </style>
+    <!-- MaterialAlertDialog Theme -->
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Your colors-->
+    <color name="chalk_1">#ACDEE7</color>
+    <color name="chalk_2">#CCAACB</color>
+    <color name="chalk_3">#FFFFB5</color>
+    <color name="chalk_4">#FFCDB6</color>
+    <color name="chalk_5">#F3B0C2</color>
+    <color name="tangerine_1">#FE9689</color>
+    <color name="tangerine_2">#FEAEA5</color>
+    <color name="tangerine_3">#FFC6BF</color>
+    <color name="tangerine_4">#FFD8BE</color>
+    <color name="tangerine_5">#FFC7A2</color>
+    <color name="calm_1">#97C1A9</color>
+    <color name="calm_2">#B7CFB7</color>
+    <color name="calm_3">#CCE2CB</color>
+    <color name="calm_4">#8FC9CA</color>
+    <color name="calm_5">#A2E0DB</color>
+
+    <!--here your custom pallets-->
+    <array name="full_color">
+        <item>@color/chalk_1</item>
+        <item>@color/chalk_2</item>
+        <item>@color/chalk_3</item>
+        <item>@color/chalk_4</item>
+        <item>@color/chalk_5</item>
+        <item>@color/tangerine_1</item>
+        <item>@color/tangerine_2</item>
+        <item>@color/tangerine_3</item>
+        <item>@color/tangerine_4</item>
+        <item>@color/tangerine_5</item>
+        <item>@color/calm_1</item>
+        <item>@color/calm_2</item>
+        <item>@color/calm_3</item>
+        <item>@color/calm_4</item>
+        <item>@color/calm_5</item>
+    </array>
+
+    <array name="free_colors">
+        <item>@color/chalk_1</item>
+        <item>@color/chalk_2</item>
+        <item>@color/chalk_3</item>
+        <item>@color/chalk_4</item>
+        <item>@color/chalk_5</item>
+    </array>
+</resources>

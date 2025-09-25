@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.note.NoteFragment">
+
+    <item
+        android:id="@+id/menu_action_search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/label_search_note"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_note_hidden"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_view_mode"
+                android:icon="@drawable/baseline_grid_view_24"
+                android:orderInCategory="100"
+                android:title="@string/label_grid_mode"
+                app:iconTint="?attr/colorOnSurface"/>
+            <item
+                android:id="@+id/menu_note_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:orderInCategory="100"
+                android:title="@string/action_settings"
+                app:iconTint="?attr/colorOnSurface" />
+
+        </menu>
+    </item>
+</menu>

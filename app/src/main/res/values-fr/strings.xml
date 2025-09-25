@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="action_settings">Paramètres</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="note_fragment_label">Notes</string>
+    <string name="settings_fragment_label">Paramètres</string>
+    <string name="detail_fragment_label">Modifier</string>
+    <string name="add_fragment_label">Ajouter</string>
+
+    <!-- Strings used for AlertDialog -->
+    <string name="quit">Quitter</string>
+    <string name="cancel">Annuler</string>
+    <string name="message">Que souhaitez-vous faire ?</string>
+
+    <!-- Menu -> Note fragment -->
+    <string name="label_grid_mode">Vue en grille</string>
+    <string name="label_list_mode">Vue en liste</string>
+    <string name="label_search_note">Rechercher</string>
+
+    <string name="undo">Annuler</string>
+    <string name="note_deleted_msg">Note supprimée !</string>
+    <string name="note_title">Titre</string>
+    <string name="note_desc">Description</string>
+    <string name="not_saved">Les modifications n\'ont pas été enregistrées.</string>
+    <string name="share_text">Je voudrais partager ceci avec vous. Vous pouvez télécharger cette application depuis le Play Store.</string>
+    <string name="add_note_msg">Note ajoutée !</string>
+    <string name="updated_note_msg">Note mise à jour !</string>
+    <string name="menu_detail_send_label">Envoyer</string>
+    <string name="menu_main_share_label">Partager</string>
+
+    <!-- Settings label-->
+    <string name="setting_dark_mode">Mode sombre</string>
+    <string name="setting_grid_mode">Mode de vue en grille</string>
+    <string name="setting_ads_mode">Support publicitaire</string>
+    <string name="setting_ads_info">En activant le support publicitaire, vous disposerez de fonctions supplémentaires et vous nous aiderez.</string>
+    <string name="setting_local_backup">Sauvegarde locale</string>
+    <string name="setting_clear_db">Effacer la base de données</string>
+    <string name="setting_info">Informations</string>
+    <string name="setting_policy_privacy">Politique de confidentialité</string>
+    <string name="setting_about_us">À propos de</string>
+    <string name="setting_share">Partager l\'application</string>
+    <string name="setting_rate">Évaluez-nous</string>
+    <string name="setting_more">Plus d\'applications</string>
+    <string name="setting_version">Version</string>
+    <string name="local_backup_title">Sauvegarde locale</string>
+    <string name="local_backup_desc">Sauvegardez vos notes sur le stockage</string>
+    <string name="local_restore_title">Restaurer depuis local</string>
+    <string name="local_restore_desc">Sélectionnez le chemin de la sauvegarde locale</string>
+    <string name="local_clear_desc">Cliquez pour supprimer toutes les notes</string>
+    <string name="local_clear_title">Effacer la base de données</string>
+
+    <string name="about_btn_label">Fermer</string>
+
+    <!-- Dialog label-->
+    <string name="enable_ads">Souhaitez-vous activer le support publicitaire ?</string>
+    <string name="message_disable_ads">Souhaitez-vous désactiver le support publicitaire ?</string>
+    <string name="setting_general_label">Général</string>
+    <string name="sw_grid_mode">Activer le mode de vue en grille</string>
+
+    <string name="label_add_note">Bouton d\'ajout de note</string>
+</resources>

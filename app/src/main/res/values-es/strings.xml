@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Configuración</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="note_fragment_label">Notas</string>
+    <string name="settings_fragment_label">Ajustes</string>
+    <string name="detail_fragment_label">Editar</string>
+    <string name="add_fragment_label">Agregar</string>
+
+    <!-- Strings used for AlertDialog -->
+    <string name="quit">Salir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="message">¿Qué te gustaría hacer?</string>
+
+    <!-- Menu -> Note fragment -->
+    <string name="label_grid_mode">Vista de cuadrícula</string>
+    <string name="label_list_mode">Vista de lista</string>
+    <string name="label_search_note">Buscar</string>
+
+    <string name="undo">Deshacer</string>
+    <string name="note_deleted_msg">¡Nota eliminada!</string>
+    <string name="note_title">Título</string>
+    <string name="note_desc">Descripción</string>
+    <string name="not_saved">No se guardaron los cambios.</string>
+    <string name="share_text">Me gustaría compartir esto contigo. Puedes descargar esta aplicación desde la Play Store.</string>
+    <string name="add_note_msg">¡Nota añadida!</string>
+    <string name="updated_note_msg">¡Nota actualizada!</string>
+    <string name="menu_detail_send_label">Enviar</string>
+    <string name="menu_main_share_label">Compartir</string>
+
+    <!-- Settings label-->
+    <string name="setting_dark_mode">Modo oscuro</string>
+    <string name="setting_grid_mode">Modo de vista de cuadrícula</string>
+    <string name="setting_ads_mode">Soporte de anuncios</string>
+    <string name="setting_ads_info">Al habilitar el soporte de anuncios, obtendrás funciones adicionales y nos apoyarás.</string>
+    <string name="setting_local_backup">Respaldo local</string>
+    <string name="setting_clear_db">Limpiar base de datos</string>
+    <string name="setting_info">Información</string>
+    <string name="setting_policy_privacy">Política de privacidad</string>
+    <string name="setting_about_us">Acerca de</string>
+    <string name="setting_share">Compartir app</string>
+    <string name="setting_rate">Calificanos</string>
+    <string name="setting_more">Más aplicaciones</string>
+    <string name="setting_version">Versión</string>
+    <string name="local_backup_title">Respaldo local</string>
+    <string name="local_backup_desc">Respalda tus notas en el almacenamiento</string>
+    <string name="local_restore_title">Restaurar desde local</string>
+    <string name="local_restore_desc">Selecciona la ruta del respaldo local</string>
+    <string name="local_clear_desc">Haz clic para eliminar todas las notas</string>
+    <string name="local_clear_title">Limpiar base de datos</string>
+
+    <string name="about_btn_label">Cerrar</string>
+
+    <!-- Dialog label-->
+    <string name="enable_ads">¿Deseas habilitar el soporte con anuncios?</string>
+    <string name="message_disable_ads">¿Deseas deshabilitar el soporte con anuncios?</string>
+    <string name="setting_general_label">General</string>
+    <string name="sw_grid_mode">Habilitar modo de vista de cuadrícula</string>
+
+    <string name="label_add_note">Botón de agregar nota</string>
+</resources>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="note_fragment_label">Notes</string>
+    <string name="settings_fragment_label">Settings</string>
+    <string name="detail_fragment_label">Edit</string>
+    <string name="add_fragment_label">Add</string>
+
+    <!-- Strings used for AlertDialog -->
+    <string name="quit">Quit</string>
+    <string name="cancel">Cancel</string>
+    <string name="message">What would you like to do?</string>
+
+    <!-- Menu -> Note fragment -->
+    <string name="label_grid_mode">Grid View</string>
+    <string name="label_list_mode">List View</string>
+    <string name="label_search_note">Search</string>
+
+    <string name="undo">Undo</string>
+    <string name="note_deleted_msg">Note deleted!</string>
+    <string name="note_title">Title</string>
+    <string name="note_desc">Description</string>
+    <string name="not_saved">Changes were not saved.</string>
+    <string name="share_text">I would like to share this with you. You can download this application from the Play Store.</string>
+    <string name="add_note_msg">Note added!</string>
+    <string name="updated_note_msg">Note updated!</string>
+    <string name="menu_color_label" translatable="false">Color</string>
+    <string name="menu_detail_send_label">Send</string>
+    <string name="menu_main_share_label">Share</string>
+
+    <!-- Settings label-->
+    <string name="setting_dark_mode">Dark Mode</string>
+    <string name="setting_grid_mode">Grid View Mode</string>
+    <string name="setting_ads_mode">Ad Support</string>
+    <string name="setting_ads_info">Enabling ad support provides additional features and supports us.</string>
+    <string name="setting_local_backup">Local Backup</string>
+    <string name="setting_clear_db">Clear Database</string>
+    <string name="setting_info">Information</string>
+    <string name="setting_policy_privacy">Privacy Policy</string>
+    <string name="setting_about_us">About</string>
+    <string name="setting_share">Share App</string>
+    <string name="setting_rate">Rate Us</string>
+    <string name="setting_more">More Apps</string>
+    <string name="setting_version">Version</string>
+    <string name="local_backup_title">Local Backup</string>
+    <string name="local_backup_desc">Backup your notes to storage</string>
+    <string name="local_restore_title">Restore from Local</string>
+    <string name="local_restore_desc">Select the path to the local backup</string>
+    <string name="local_clear_desc">Click to delete all notes</string>
+    <string name="local_clear_title">Clear Database</string>
+
+    <string name="about_developer" translatable="false">Kaleli Studio</string>
+    <string name="about_made_in" translatable="false">Made in 🇲🇽</string>
+    <string name="about_btn_label">Close</string>
+
+    <!-- Dialog label-->
+    <string name="todo" translatable="false">TODO</string>
+    <string name="enable_ads">Do you want to enable ad support?</string>
+    <string name="message_disable_ads">Do you want to disable ad support?</string>
+    <string name="setting_general_label">General</string>
+    <string name="sw_grid_mode">Enable grid view mode</string>
+
+    <string name="label_add_note">Add Note Button</string>
+</resources>

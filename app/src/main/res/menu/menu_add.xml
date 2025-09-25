@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wtg.notes.ui.add.AddFragment">
+
+    <item
+        android:id="@+id/menu_add_color"
+        android:icon="@drawable/baseline_color_24"
+        android:title="@string/menu_color_label"
+        app:showAsAction="ifRoom" />
+</menu>

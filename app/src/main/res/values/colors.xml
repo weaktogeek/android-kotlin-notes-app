@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Light Theme -->
+    <color name="colorPrimaryLight">#FF547feb</color>
+    <color name="colorPrimaryVariantLight">#FF547feb</color>
+    <color name="colorOnPrimaryLight">#FFFFFFFF</color>
+    <color name="colorSecondaryLight">#FFD69C94</color>
+    <color name="colorSecondaryVariantLight">#FFEEC6BF</color>
+    <color name="colorOnSecondaryLight">#FF2C2C2C</color>
+
+    <!-- Dark Theme-->
+    <color name="colorPrimaryDark">#FF394055</color>
+    <color name="colorPrimaryVariantDark">#FF59677F</color>
+    <color name="colorOnPrimaryDark">#FFE0E0E0</color>
+    <color name="colorSecondaryDark">#FF5C443F</color>
+    <color name="colorSecondaryVariantDark">#FF825C56</color>
+    <color name="colorOnSecondaryDark">#FFf5f5f5</color>
+
+    <!--button: add note -->
+    <color name="ripple_color">#FF4A5568</color>
+    <!--default color note-->
+    <color name="default_card_color">#FFFFF9C4</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!--colors for light mode-->
+    <color name="contentTextColor">#020000</color>
+    <color name="miniTitle">#2A2E43</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
